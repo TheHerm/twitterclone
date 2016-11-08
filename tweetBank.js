@@ -13,7 +13,7 @@ function list(){
 function find(properties){
 	return _.cloneDeep(_.filter(data, properties));
 };
-module.exports = {add: add, list: list, find: find};
+module.exports = {add: add, list: list, find: find, data: data};
 
 
 
@@ -36,4 +36,3 @@ for (var i = 0; i < 10; i++) {
   add( getFakeName(), getFakeTweet() );
 }
 
-console.log(data)
