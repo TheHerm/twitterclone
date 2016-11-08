@@ -3,7 +3,7 @@ const app = express();
 const nunjucks = require('nunjucks')
 const people = [{name: 'Full'}, {name: 'Stacker'}, {name: 'Son'}];
 
-var counter = 0
+var counter = 3
 
 var locals = {
 	title: "An Example",
