@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-var counter = 0
+var counter = 3
 
 
 app.use('/', function(req, res, next) {
